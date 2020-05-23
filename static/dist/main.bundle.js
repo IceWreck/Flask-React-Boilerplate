@@ -218,6 +218,18 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
+/***/ "./static/img/react.png":
+/*!******************************!*\
+  !*** ./static/img/react.png ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"../../static/dist/react.png\");\n\n//# sourceURL=webpack:///./static/img/react.png?");
+
+/***/ }),
+
 /***/ "./static/js/App.js":
 /*!**************************!*\
   !*** ./static/js/App.js ***!
@@ -238,7 +250,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _com
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar SomeComponent = function SomeComponent() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Hello, this is a react component.\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (SomeComponent);\n\n//# sourceURL=webpack:///./static/js/components/SomeComponent.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_react_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/react.png */ \"./static/img/react.png\");\n\n\n\nvar SomeComponent = function SomeComponent() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Hello, this is a react component.\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _img_react_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n    height: \"100px\"\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (SomeComponent);\n\n//# sourceURL=webpack:///./static/js/components/SomeComponent.js?");
 
 /***/ })
 

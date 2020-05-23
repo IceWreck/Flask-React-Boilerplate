@@ -14,6 +14,15 @@ module.exports = {
                 test: /\.js$/,
                 use: "babel-loader",
             },
+            {
+                test: /\.(svg|png|jpg|jpeg|gif)$/,
+                loader: 'file-loader',
+
+                options: {
+                    name: '[name].[ext]',
+                    outputPath: '../../static/dist'
+                }
+            }
         ],
     },
     output: {
