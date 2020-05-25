@@ -6,7 +6,7 @@ module.exports = {
     //     historyApiFallback: true,
     // },
     entry: {
-        main: "./static/js/App.js",
+        main: "./static/js/SomePage.js",
     },
     module: {
         rules: [

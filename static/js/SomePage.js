@@ -2,8 +2,8 @@ import SomeComponent from "./components/SomeComponent";
 import React from "react";
 import ReactDOM from "react-dom";
 
-const MainPage = () => {
+const SomePage = () => {
     return <SomeComponent />;
 };
 
-ReactDOM.render(<MainPage />, document.getElementById("render-react-here"));
+ReactDOM.render(<SomePage />, document.getElementById("render-react-here"));
